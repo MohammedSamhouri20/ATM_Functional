@@ -3,5 +3,5 @@ import type { Account } from "./Account.js"
 export type User = {
     id: number,
     name: string,
-    account: Account
+    account: Account | undefined
 }

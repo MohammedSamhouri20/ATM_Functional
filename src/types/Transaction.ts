@@ -1,4 +1,4 @@
-import type { TransactionType } from "../Enums/TransactionType.js";
+import type { TransactionType } from "../enums/TransactionType.js";
 import type { Account } from "./Account.js";
 
 export type Transaction = {
